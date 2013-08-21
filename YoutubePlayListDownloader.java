@@ -87,6 +87,7 @@ public class YoutubePlayListDownloader {
 
   @After
   public void tearDown() throws Exception {
+  	//Do not close the browser until all downloads are completed. This will be user controlled.
    // driver.quit();
   }
 }
