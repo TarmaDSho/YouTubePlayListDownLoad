@@ -56,7 +56,7 @@ public class YoutubePlayListDownloader {
 	// You many need to change the value of the Path to the firefox on your machine
     driver = new FirefoxDriver(new FirefoxProfile(new File("C:\\Users\\Webi\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\u46cz0u1.default")));
     
-    
+    //implicit wait is bad.
     driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
   }
 
